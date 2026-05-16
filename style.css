@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(135deg, #eef4ff, #f8fbff);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.app-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 24px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+.main-title {
+  font-weight: 800;
+}
+
+.patient-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.2s;
+  height: 100%;
+  overflow: hidden;
+}
+
+.patient-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-top-line {
+  height: 8px;
+}
+
+.line-pothranjenost {
+  background: #0dcaf0;
+}
+
+.line-normalna {
+  background: #198754;
+}
+
+.line-prekomerna {
+  background: #ffc107;
+}
+
+.line-gojaznost {
+  background: #dc3545;
+}
+
+.empty-box {
+  border: 2px dashed #cfd8e3;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.info-line {
+  margin-bottom: 8px;
+}
+
+.slika-pacijenta {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
